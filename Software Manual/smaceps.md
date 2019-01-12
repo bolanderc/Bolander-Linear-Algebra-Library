@@ -1,5 +1,5 @@
 # Math 5610 Computational Linear Algebra and Solution of Systems of Equations Software Manual
-This is a student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
+This is a part of the student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
 
 **Routine Name:**           smaceps
 
@@ -7,8 +7,7 @@ This is a student software manual project for Math 5610: Computational Linear Al
 
 **Language:** Python. This code was written in Python 3.
 
-**Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
-in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
+**Description/Purpose:** This routine will compute the single precision value for the machine epsilon. This is a routine for analyzing the behavior of any computer. This
 usually will need to be run one time for each computer.
 
 **Input:** There are no inputs needed.
@@ -32,8 +31,9 @@ If the value returned by mp.smaceps() is printed, the output is:
 This represents the decimal value of machine epsilon for single precision. The number of decimal digits that can be represented is roughly eight (E-08 on the
 end of the second value).
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for dmaceps()
 
       def smaceps()
           mach_eps = 2**-(24 - 1)/2
           return mach_eps
+
