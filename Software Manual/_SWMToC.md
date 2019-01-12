@@ -1,4 +1,4 @@
-#Software Manual Table of Contents
+# Software Manual Table of Contents
 
-[dmaceps](https://github.com/bolanderc/math5610/blob/master/mach_prec.py)
-[smaceps](https://github.com/bolanderc/math5610)
+[dmaceps](https://github.com/bolanderc/math5610/blob/master/Software%20Manual/dmaceps.md)
+[smaceps](https://github.com/bolanderc/math5610/blob/master/Software%20Manual/smaceps.md)
