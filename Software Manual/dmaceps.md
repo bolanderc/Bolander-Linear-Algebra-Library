@@ -19,12 +19,12 @@ computer being used to run the program.
 
 This routine has no inputs and can be implemented as follows
 
-      import mach_prec as mp
-      
+	  import mach_prec as mp
 
-      mp.dmaceps()
 
-If the value returned by mp.dmaceps() is printed, the output is:
+	  mp.dmaceps()
+
+If the value returned by `mp.dmaceps()` is printed, the output is:
 
       1.1102230246251565e-16
 
