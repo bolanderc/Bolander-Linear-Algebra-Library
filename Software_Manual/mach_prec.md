@@ -11,6 +11,6 @@ This is a part of the student software manual project for Math 5610: Computation
 
 **Routine Listings:**
 -----------------
-- [smaceps()](https://github.com/bolanderc/math5610/blob/master/Software%20Manual/smaceps.md)    Calculates and returns machine epsilon in single precision.
-- [dmaceps()](https://github.com/bolanderc/math5610/blob/master/Software%20Manual/dmaceps.md)    Calculates and returns machine epsilon in double precision.
+- [smaceps()](smaceps.md)    Calculates and returns machine epsilon in single precision.
+- [dmaceps()](dmaceps.md)    Calculates and returns machine epsilon in double precision.
 
