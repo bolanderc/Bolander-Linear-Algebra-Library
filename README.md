@@ -1,5 +1,5 @@
 # Software Manual
-- [Table of Contents](math5610/Software\Manual/_SWMToC.md)
+- [Table of Contents](Software\Manual/_SWMToC.md)
 # Homework
 - [Homework 1](HW1ToC.md)
 - [Homework 2](HW2ToC.md)
