@@ -8,6 +8,6 @@
 - [x] [Task 6](./mach_prec.py) 
 - [x] [Task 7](./HW1Task7Report.md)
 - [x] [Task 8](./HW1Task8Report.md)
-- [x] [Task 9](https://bolanderc.github.io/)
-- [x] [Task 10](https://bolanderc.github.io/)
+- [x] [Task 9](./rand_mat.f90)
+- [x] [Task 10](./HW1Task10Report.md)
 
