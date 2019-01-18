@@ -1,6 +1,6 @@
 # Homework 1 Table of Contents
 
-- [x] [Task 1](mach_prec.py)
+- [x] [Task 1](Software_Manual/SWMToC.md)
 - [x] [Task 2](README.md)
 - [x] [Task 3](https://bolanderc.github.io/math5610)
 - [x] [Task 4](Software_Manual/SWMToC.md)
