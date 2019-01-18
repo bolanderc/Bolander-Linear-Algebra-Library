@@ -1,39 +1,46 @@
 # Math 5610 Computational Linear Algebra and Solution of Systems of Equations Software Manual
+
 This is a part of the student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
 
 **Routine Name:**           smaceps
 
 **Author:** Christian Bolander
 
-**Language:** Python. This code was written in Python 3.
+**Language:** Fortran. This code can be compiled using the GNU Fortran compiler by
+```$ gfortran -c smaceps.f90```
+
+and can be added to a program using
+
+```$ gfortran program.f90 smaceps.o ``` 
 
 **Description/Purpose:** This routine will compute the single precision value for the machine epsilon. This is a routine for analyzing the behavior of any computer. This
 usually will need to be run one time for each computer.
 
 **Input:** There are no inputs needed.
 
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being used to run the program.
+**Output:** 
+
+*mach_eps* : REAL - single precision machine epsilon value
+
+*i* : INTEGER - the number of binary digits that represent machine epsilon
 
 **Usage/Example:**
 
-This routine has no inputs and can be implemented as follows
+This routine has no inputs and can be implemented in a program as follows
 
-      import mach_prec as mp
-      
+```fortran
+CALL smaceps(mach_eps, i)
+WRITE(*,*) mach_eps, i
+```
 
-      mp.smaceps()
+The outputs from the above code:
 
-If the value returned by mp.smaceps() is printed, the output is:
+```fortran
+   5.96046448E-08          24
+```
 
-      5.960464477539063e-08
+The number of decimal digits that can be represented is roughly eight (E-8 on the
+end of the first value) and the number of binary digits that represent machine epsilon are 24.
 
-This represents the decimal value of machine epsilon for single precision. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
-
-**Implementation/Code:** The following is the code for dmaceps()
-
-      def smaceps()
-          mach_eps = 2**-(24 - 1)/2
-          return mach_eps
+**Implementation/Code:** The code for smaceps can be seen [here](smaceps.f90).
 

@@ -5,35 +5,41 @@ This is a part of the student software manual project for Math 5610: Computation
 
 **Author:** Christian Bolander
 
-**Language:** Python. This code was written in Python 3.
+**Language:** Fortran. This code can be compiled using the GNU Fortran compiler by
+```$ gfortran -c dmaceps.f90```
+
+and can be added to a program using
+
+```$ gfortran program.f90 dmaceps.o ``` 
 
 **Description/Purpose:** This routine will compute the double precision value for the machine epsilon. This is a routine for analyzing the behavior of any computer. This
 usually will need to be run one time for each computer.
 
 **Input:** There are no inputs needed.
 
-**Output:** This routine returns a double precision value for the number of decimal digits that can be represented on the
-computer being used to run the program.
+**Output:** 
+
+*mach_eps* : REAL - double precision machine epsilon value
+
+*i* : INTEGER - the number of binary digits that represent machine epsilon
 
 **Usage/Example:**
 
-This routine has no inputs and can be implemented as follows
+This routine has no inputs and can be implemented in a program as follows
 
-	  import mach_prec as mp
+```fortran
+CALL dmaceps(mach_eps, i)
+WRITE(*,*) mach_eps, i
+```
 
+The outputs from the above code:
 
-	  mp.dmaceps()
+```fortran
+   1.1102230246251565E-016          53
+```
 
-If the value returned by `mp.dmaceps()` is printed, the output is:
+The number of decimal digits that can be represented is roughly sixteen (E-16 on the
+end of the first value) and the number of binary digits that represent machine epsilon are 53.
 
-      1.1102230246251565e-16
-
-This represents the decimal value of machine epsilon for double precision. The number of decimal digits that can be represented is roughly sixteen (E-16 on the
-end of the second value).
-
-**Implementation/Code:** The following is the code for smaceps()
-
-      def dmaceps()
-          mach_eps = 2**-(53 - 1)/2
-          return mach_eps
+**Implementation/Code:** The code for dmaceps can be seen [here](dmaceps.f90).
 
