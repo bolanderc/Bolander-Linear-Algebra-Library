@@ -42,5 +42,5 @@ The outputs from the above code:
 The number of decimal digits that can be represented is roughly eight (E-8 on the
 end of the first value) and the number of binary digits that represent machine epsilon are 24.
 
-**Implementation/Code:** The code for smaceps can be seen [here](smaceps.f90).
+**Implementation/Code:** The code for smaceps can be seen [here](../smaceps.f90).
 
