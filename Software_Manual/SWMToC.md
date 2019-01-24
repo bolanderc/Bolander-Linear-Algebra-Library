@@ -5,4 +5,5 @@ This is the Software Manual created for Math 5610: Computational Linear Algebra 
 - [abs_err_n](./abs_err_n.md)
 - [dmaceps](dmaceps.md)
 - [rand_mat](rand_mat.md)
+- [rel_err_n](./rel_err_n.md)
 - [smaceps](smaceps.md)

@@ -2,7 +2,7 @@
 
 - [x] [Task 1](https://bolanderc.github.io/math5610/)
 - [x] [Task 2](./Software_Manual/abs_err_n.md)
-- [ ] [Task 3](https://bolanderc.github.io/math5610)
+- [x] [Task 3](./Software_Manual/rel_err_n.md)
 - [ ] [Task 4](https://bolanderc.github.io/math5610)
 - [ ] [Task 5 ](https://bolanderc.github.io/math5610)
 - [ ] [Task 6](https://bolanderc.github.io/math5610) 
