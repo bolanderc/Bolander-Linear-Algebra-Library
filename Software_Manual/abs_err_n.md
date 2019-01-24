@@ -13,25 +13,21 @@ and can be added to a program using
 
 ```$ gfortran program.f90 abs_err_n.o ``` 
 
-**Description/Purpose:** This routine will compute the double precision absolute error between two numbers. This is given by 
-$$
-\begin{equation*}
+**Description/Purpose:** This routine will compute the double precision absolute error between two numbers. This is given by
 
-e_{abs} = ||x - \bar{x}||
+ <a href="https://www.codecogs.com/eqnedit.php?latex=e_{abs}&space;=&space;||x&space;-&space;\bar{x}||" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e_{abs}&space;=&space;||x&space;-&space;\bar{x}||" title="e_{abs} = ||x - \bar{x}||" /></a>
 
-\end{equation*}
-$$
-where $x$ is the approximation and $\bar{x}$ is the actual value being approximated.
+where *x* is the approximation and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\bar{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\bar{x}" title="\bar{x}" /></a> is the actual value being approximated.
 
 **Input:**  
 
-$x$ : REAL - actual value, double precision
+*x* : REAL - actual value, double precision
 
-$y$ : REAL - approximation, double precision
+*y* : REAL - approximation, double precision
 
 **Output:** 
 
-$e_{abs}$ : REAL - double precision absolute error between $x$ and $y$.
+*e_abs* : REAL - double precision absolute error between *x* and *y*.
 
 **Usage/Example:**
 
@@ -50,7 +46,7 @@ The output from the above code:
   0.87535476684570312 
 ```
 
-which is the absolute error between $x$ and $y$.
+which is the absolute error between *x* and *y*.
 
 **Implementation/Code:** The code for abs_err_n can be seen [here](../abs_err_n.f90).
 

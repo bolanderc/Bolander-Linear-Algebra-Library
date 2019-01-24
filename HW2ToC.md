@@ -17,11 +17,11 @@
 
 ------
 
-2. Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number $x$ by another number $y$. Also create an entry for the method in your software manual.
+2. Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number *x* by another number *y*. Also create an entry for the method in your software manual.
 
 ------
 
-3. Task: Implement a method/routine that computes and returns the relative error in the approximation of a number $x$ by another number $y$. Also create an entry for the method in your software manual.
+3. Task: Implement a method/routine that computes and returns the relative error in the approximation of a number *x* by another number *y*. Also create an entry for the method in your software manual.
 
 ------
 
@@ -41,7 +41,7 @@
 
 ------
 
-8. Task:Implement a method that will compute the $\infty$-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
+8. Task:Implement a method that will compute the <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\infty" title="\infty" /></a>-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
 
 ------
 

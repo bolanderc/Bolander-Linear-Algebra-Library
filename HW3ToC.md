@@ -21,7 +21,7 @@
 
 ------
 
-3. Task: Implement a method that returns the absolute error in the approximation of one vector by another when the $\infty$-norm is used. Add an entry to your software manual that documents the method.
+3. Task: Implement a method that returns the absolute error in the approximation of one vector by another when the <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\infty" title="\infty" /></a>-norm is used. Add an entry to your software manual that documents the method.
 
 ------
 
@@ -29,7 +29,7 @@
 
 ------
 
-5. Task: Implement a method that returns the $\infty$-norm of a given square matrix. Add an entry to your software manual that documents the method.
+5. Task: Implement a method that returns the <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\infty" title="\infty" /></a>-norm of a given square matrix. Add an entry to your software manual that documents the method.
 
 ------
 
