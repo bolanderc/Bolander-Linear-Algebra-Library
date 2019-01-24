@@ -36,8 +36,8 @@ This routine can be implemented in a program as follows
 ```fortran
 x = 7.124645
 y = 8.0
-CALL rel_err_n(x, y, e_abs)
-WRITE(*,*) e_abs
+CALL rel_err_n(x, y, e_rel)
+WRITE(*,*) e_rel
 ```
 
 The output from the above code:
