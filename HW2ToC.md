@@ -1,13 +1,52 @@
-# Homework 1 Table of Contents
+# Homework 2 Table of Contents
 
-- [x] [Task 1](mach_prec.py)
-- [x] [Task 2](README.md)
-- [x] [Task 3](https://bolanderc.github.io/math5610)
-- [x] [Task 4](Software_Manual/SWMToC.md)
-- [x] [Task 5 - HW](HomeworkToC.md) [Task 5 - Software Manual](Software_Manual/SWMToC.md)
-- [x] [Task 6](./mach_prec.py) 
-- [x] [Task 7](./HW1Task7Report.md)
-- [x] [Task 8](./HW1Task8Report.md)
-- [ ] [Task 9](https://bolanderc.github.io/)
-- [ ] [Task 10](https://bolanderc.github.io/)
+- [x] [Task 1](https://bolanderc.github.io/math5610/)
+- [x] [Task 2](./Software_Manual/abs_err_n.md)
+- [ ] [Task 3](https://bolanderc.github.io/math5610)
+- [ ] [Task 4](https://bolanderc.github.io/math5610)
+- [ ] [Task 5 ](https://bolanderc.github.io/math5610)
+- [ ] [Task 6](https://bolanderc.github.io/math5610) 
+- [ ] [Task 7](https://bolanderc.github.io/math5610)
+- [ ] [Task 8](https://bolanderc.github.io/math5610)
+- [ ] [Task 9](https://bolanderc.github.io/math5610)
+- [ ] [Task 10](https://bolanderc.github.io/math5610)
 
+## Description of Tasks
+
+1. Task: Email the link to your repository and table of contents for your completed homework tasks. I understand that this is a very easy task. Make sure that the link is an absolute link. The link should be to the username.github.io repository for the css formatted version.
+
+------
+
+2. Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number $x$ by another number $y$. Also create an entry for the method in your software manual.
+
+------
+
+3. Task: Implement a method/routine that computes and returns the relative error in the approximation of a number $x$ by another number $y$. Also create an entry for the method in your software manual.
+
+------
+
+4. Task: Implement a method that will add two vectors of the same length. Also create an entry for the method in your software manual.
+
+------
+
+5. Task: Implement a method that will return a scalar multiple of a given vector. The method should require a vector and number for the operation. Add an entry to your software manual for this method.
+
+------
+
+6. Task: Implement a method that will compute the 2-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create.
+
+------
+
+7. Task: Implement a method that will compute the 1-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create.
+
+------
+
+8. Task:Implement a method that will compute the $\infty$-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
+
+------
+
+9. Task: Write a routine that will generate a symmetric matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
+
+------
+
+10. Task: Search the internet for sites that discuss matrix norms. Look for sites that explain induced matrix norms. Write a brief summary of what you find. Limit the discussion to no more than two or three paragraphs and include links to the sites you cite.
