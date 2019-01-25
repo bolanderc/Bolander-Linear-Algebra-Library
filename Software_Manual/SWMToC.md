@@ -7,3 +7,4 @@ This is the Software Manual created for Math 5610: Computational Linear Algebra 
 - [rand_mat](rand_mat.md)
 - [rel_err_n](./rel_err_n.md)
 - [smaceps](smaceps.md)
+- [vec_add](./vec_add.md)
