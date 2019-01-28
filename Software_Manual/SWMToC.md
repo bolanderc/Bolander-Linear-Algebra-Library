@@ -4,6 +4,7 @@ This is the Software Manual created for Math 5610: Computational Linear Algebra 
 ## Subroutines
 - [abs_err_n](./abs_err_n.md)
 - [dmaceps](dmaceps.md)
+- [l1_vec_norm](./l1_vec_norm.md)
 - [l2_vec_norm](./l2_vec_norm.md)
 - [rand_mat](rand_mat.md)
 - [rel_err_n](./rel_err_n.md)
