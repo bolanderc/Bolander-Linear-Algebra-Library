@@ -4,7 +4,7 @@
 - [x] [Task 2](./Software_Manual/abs_err_n.md)
 - [x] [Task 3](./Software_Manual/rel_err_n.md)
 - [x] [Task 4](./Software_Manual/vec_add.md)
-- [ ] [Task 5 ](https://bolanderc.github.io/math5610)
+- [x] [Task 5 ](./Software_Manual/s_mult_vec.md)
 - [ ] [Task 6](https://bolanderc.github.io/math5610) 
 - [ ] [Task 7](https://bolanderc.github.io/math5610)
 - [ ] [Task 8](https://bolanderc.github.io/math5610)
