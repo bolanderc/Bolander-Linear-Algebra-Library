@@ -8,7 +8,7 @@
 - [x] [Task 6](./Software_Manual/l2_vec_norm.md) 
 - [x] [Task 7](./Software_Manual/l1_vec_norm.md)
 - [x] [Task 8](./Software_Manual/l_inf_vec_norm.md)
-- [ ] [Task 9](https://bolanderc.github.io/math5610)
+- [x] [Task 9](./Software_Manual/sym_mat_gen.md)
 - [ ] [Task 10](https://bolanderc.github.io/math5610)
 
 ## Description of Tasks

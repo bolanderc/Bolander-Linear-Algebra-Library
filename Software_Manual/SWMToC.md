@@ -5,14 +5,15 @@ This is the Software Manual created for Math 5610: Computational Linear Algebra 
 The subroutines contained in this manual will be split according to their general purpose in solving computational linear algebra problems
 
 ### Basic Linear Algebra
-- [abs_err_n](./abs_err_n.md)
-- [dmaceps](dmaceps.md)
-- [l1_vec_norm](./l1_vec_norm.md)
-- [l2_vec_norm](./l2_vec_norm.md)
-- [l_inf_vec_norm](./l_inf_vec_norm.md)
-- [rand_mat](rand_mat.md)
-- [rel_err_n](./rel_err_n.md)
-- [smaceps](smaceps.md)
-- [s_mult_vec](./s_mult_vec.md)
-- [vec_add](./vec_add.md)
+- [abs_err_n](./abs_err_n.md) : Calculates the absolute error for a value and its approximation.
+- [dmaceps](dmaceps.md) : Finds the machine epsilon for double precision.
+- [l1_vec_norm](./l1_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of a vector.
+- [l2_vec_norm](./l2_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm of a vector.
+- [l_inf_vec_norm](./l_inf_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_\infty" title="\ell_\infty" /></a>-norm of a vector.
+- [rand_mat](rand_mat.md) : Generates a random matrix of size (r, c).
+- [rel_err_n](./rel_err_n.md) : Calculates the relative error for a value and its approximation.
+- [smaceps](smaceps.md) : Finds the machine epsilon for single precision.
+- [s_mult_vec](./s_mult_vec.md) : Multiplies a vector by a scalar value.
+- [sym_mat_gen](./sym_mat_gen.md) : Generates a symmetric matrix.
+- [vec_add](./vec_add.md) : Adds two vectors together.
 
