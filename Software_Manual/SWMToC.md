@@ -2,10 +2,14 @@
 This is the Software Manual created for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. Contained within are a list of documented subroutines created for solving systems of equations computationally.
 
 ## Subroutines
+The subroutines contained in this manual will be split according to their general purpose in solving computational linear algebra problems
+
+### Basic Linear Algebra
 - [abs_err_n](./abs_err_n.md)
 - [dmaceps](dmaceps.md)
 - [l1_vec_norm](./l1_vec_norm.md)
 - [l2_vec_norm](./l2_vec_norm.md)
+- [l_inf_vec_norm](./l_inf_vec_norm.md)
 - [rand_mat](rand_mat.md)
 - [rel_err_n](./rel_err_n.md)
 - [smaceps](smaceps.md)

@@ -7,7 +7,7 @@
 - [x] [Task 5 ](./Software_Manual/s_mult_vec.md)
 - [x] [Task 6](./Software_Manual/l2_vec_norm.md) 
 - [x] [Task 7](./Software_Manual/l1_vec_norm.md)
-- [ ] [Task 8](https://bolanderc.github.io/math5610)
+- [x] [Task 8](./Software_Manual/l_inf_vec_norm.md)
 - [ ] [Task 9](https://bolanderc.github.io/math5610)
 - [ ] [Task 10](https://bolanderc.github.io/math5610)
 
@@ -41,7 +41,7 @@
 
 ------
 
-8. Task:Implement a method that will compute the <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\infty" title="\infty" /></a>-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
+8. Task: Implement a method that will compute the <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\infty" title="\infty" /></a>-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
 
 ------
 
