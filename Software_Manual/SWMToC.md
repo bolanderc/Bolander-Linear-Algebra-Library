@@ -6,6 +6,7 @@ The subroutines contained in this manual will be split according to their genera
 
 ### Basic Linear Algebra
 - [abs_err_n](./abs_err_n.md) : Calculates the absolute error for a value and its approximation.
+- [abs_err_vecl2](./abs_err_vecl2.md) : Calculates the absolute error between two vectors using the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm.
 - [dmaceps](dmaceps.md) : Finds the machine epsilon for double precision.
 - [l1_vec_norm](./l1_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of a vector.
 - [l2_vec_norm](./l2_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm of a vector.
