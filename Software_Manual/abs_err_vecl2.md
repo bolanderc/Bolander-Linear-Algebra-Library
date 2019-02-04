@@ -13,7 +13,7 @@ and can be added to a program using
 
 ```$ gfortran program.f90 abs_err_vecl2.o l2_vec_norm.f90 ``` 
 
-**Description/Purpose:** This routine calculates the error between an arbitrary vector ***a*** and its approximation, <a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{\hat{a}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{\hat{a}}" title="\mathbf{\hat{a}}" /></a>, using the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm or Euclidean norm of difference between the two, i.e.
+**Description/Purpose:** This routine calculates the error between an arbitrary vector ***a*** and its approximation, <a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{\hat{a}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{\hat{a}}" title="\mathbf{\hat{a}}" /></a>, using the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm or Euclidean norm of the difference, i.e.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=||\mathbf{\hat{a}}&space;-&space;\mathbf{a}||_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?||\mathbf{\hat{a}}&space;-&space;\mathbf{a}||_2" title="||\mathbf{\hat{a}} - \mathbf{a}||_2" /></a>
 
@@ -51,15 +51,15 @@ WRITE(*,*) norm
 The output from the above code:
 
 ```fortran
-   2.2383029296251151
+   2.2383029285599392
 ```
 
-which is the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm of the vector ***a***.
+which is the absolute error between ***a*** and ***approx*** using the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm.
 
-**Implementation/Code:** The code for l2_vec_norm can be seen. Note that another subroutine called in this 
+**Implementation/Code:** The code for abs_err_vecl2 can be seen. Note that the l2_vec_norm subroutine is also called
 
 ```fortran
-SUBROUTINE abs_err_vec(a, approx, n, error)
+SUBROUTINE abs_err_vecl2(a, approx, n, error)
 IMPLICIT NONE
 
 INTEGER, INTENT(IN) :: n
@@ -70,10 +70,14 @@ REAL*8 :: diff(1:n)
 INTEGER :: i
 REAL*8 :: norm
 
+!~ Find the difference between *a* and its approximation for each
+!~ element.
 DO i = 1, n
 	diff(i) = approx(i) - a(i)
 END DO
 
+!~ Calculate the l2 vector norm using the difference between the vectors
+!~ to find the error.
 CALL l2_vec_norm(diff, n, error)
 
 END SUBROUTINE
