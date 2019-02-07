@@ -3,7 +3,7 @@
 - [x] [Task 1](./Software_Manual/abs_err_vecl2.md)
 - [x] [Task 2](./Software_Manual/abs_err_vecl1.md)
 - [x] [Task 3](./Software_Manual/abs_err_vecl_inf.md)
-- [ ] [Task 4](https://bolanderc.github.io/math5610)
+- [x] [Task 4](./Software_Manual/mat_1norm.md)
 - [ ] [Task 5 ](https://bolanderc.github.io/math5610)
 - [ ] [Task 6](https://bolanderc.github.io/math5610) 
 - [ ] [Task 7](https://bolanderc.github.io/math5610)
