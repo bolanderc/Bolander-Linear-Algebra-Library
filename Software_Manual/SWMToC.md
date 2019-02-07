@@ -21,4 +21,5 @@ The subroutines contained in this manual will be split according to their genera
 - [s_mult_vec](./s_mult_vec.md) : Multiplies a vector by a scalar value.
 - [sym_mat_gen](./sym_mat_gen.md) : Generates a symmetric matrix.
 - [vec_add](./vec_add.md) : Adds two vectors together.
+- [vec_cross_prod3](./vec_cross_prod3.md) : Calculates the cross product of two vectors of length 3.
 - [vec_dot_prod](./vec_dot_prod.md) : Calculates the dot product of two vectors of the same size.
