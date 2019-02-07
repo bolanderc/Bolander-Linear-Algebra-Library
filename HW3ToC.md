@@ -5,7 +5,7 @@
 - [x] [Task 3](./Software_Manual/abs_err_vecl_inf.md)
 - [x] [Task 4](./Software_Manual/mat_1norm.md)
 - [x] [Task 5 ](./Software_Manual/mat_infnorm.md)
-- [ ] [Task 6](https://bolanderc.github.io/math5610) 
+- [x] [Task 6](./Software_Manual/vec_dot_prod.md) 
 - [ ] [Task 7](https://bolanderc.github.io/math5610)
 - [ ] [Task 8](https://bolanderc.github.io/math5610)
 - [ ] [Task 9](https://bolanderc.github.io/math5610)
