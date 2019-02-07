@@ -14,6 +14,7 @@ The subroutines contained in this manual will be split according to their genera
 - [l2_vec_norm](./l2_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm of a vector.
 - [l_inf_vec_norm](./l_inf_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_\infty" title="\ell_\infty" /></a>-norm of a vector.
 - [mat_1norm](./mat_1norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of a square matrix.
+- [mat_infnorm](./mat_infnorm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_\infty" title="\ell_\infty" /></a>-norm of a square matrix.
 - [rand_mat](rand_mat.md) : Generates a random matrix of size (r, c).
 - [rel_err_n](./rel_err_n.md) : Calculates the relative error for a value and its approximation.
 - [smaceps](smaceps.md) : Finds the machine epsilon for single precision.

@@ -13,7 +13,9 @@ and can be added to a program using
 
 ```$ gfortran program.f90 mat_1norm.o l1_vec_norm.o ``` 
 
-**Description/Purpose:** This routine calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of an arbitrary square matrix, ***A***.
+**Description/Purpose:** This routine calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of an arbitrary square matrix, ***A***. This is done by finding the maximum column <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm, i.e.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=||A||_1&space;=&space;\max_{1\leq{j}\leq{n}}\sum_{i=1}^m|a_{i\,j}|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?||A||_1&space;=&space;\max_{1\leq{j}\leq{n}}\sum_{i=1}^m|a_{i\,j}|" title="||A||_1 = \max_{1\leq{j}\leq{n}}\sum_{i=1}^m|a_{i\,j}|" /></a>
 
 **Input:**  
 
@@ -57,10 +59,10 @@ WRITE(*,*) norm
 The output from the above code:
 
 ```fortran
-   2.4400000000000004      
+   1.8300000000000005       
 ```
 
-which is the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of the matrix ***a***.
+which is the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of the matrix ***A***.
 
 **Implementation/Code:** The code for mat_1norm can be seen below. Note that the l1_vec_norm subroutine is also called
 
@@ -80,11 +82,11 @@ SUBROUTINE mat_1norm(A, n, norm)
 	norm = 0.D0
 	col_1norm = 0.D0
 	
-	! Loop through each row in the matrix A and find the l1 vector
-	! norm for that row.
+	! Loop through each column in the matrix A and find the l1 vector
+	! norm for that column.
 	DO i = 1, n
-		CALL l1_vec_norm(A(i, :), n, col_1norm)
-		! If a new maximum value for the row l1 norm has been found,
+		CALL l1_vec_norm(A(:, i), n, col_1norm)
+		! If a new maximum value for the column l1 norm has been found,
 		! save it
 		IF (col_1norm > norm) THEN
 			norm = col_1norm
