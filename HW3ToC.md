@@ -7,7 +7,7 @@
 - [x] [Task 5 ](./Software_Manual/mat_infnorm.md)
 - [x] [Task 6](./Software_Manual/vec_dot_prod.md) 
 - [x] [Task 7](./Software_Manual/vec_cross_prod3.md)
-- [ ] [Task 8](https://bolanderc.github.io/math5610)
+- [x] [Task 8](Software_Manual/mat_prod.md)
 - [ ] [Task 9](https://bolanderc.github.io/math5610)
 - [ ] [Task 10](https://bolanderc.github.io/math5610)
 
