@@ -48,5 +48,18 @@ The output from the above code:
 
 which is the absolute error between *x* and *y*.
 
-**Implementation/Code:** The code for abs_err_n can be seen [here](../abs_err_n.f90).
+**Implementation/Code:** The code for abs_err_n can be seen below.
+
+```fortran
+SUBROUTINE abs_err_n(x, y, e_abs)
+IMPLICIT NONE
+REAL*8, INTENT(IN) :: x, y
+REAL*8, INTENT(OUT) :: e_abs
+
+! Calculates the absolute error between an approximation, y, and
+! the actual value, x. These are single, double precision values.
+e_abs = ABS(y - x)
+
+END SUBROUTINE
+```
 

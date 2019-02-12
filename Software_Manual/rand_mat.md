@@ -45,5 +45,18 @@ The outputs from the above code:
   0.14500803756514291        8.3044258666368442E-002  0.42828671870518820       0.28045865572420892     
 ```
 
-**Implementation/Code:** The code for rand_mat can be seen [here](../rand_mat.f90).
+**Implementation/Code:** The code for rand_mat can be seen below.
+
+```fortran
+SUBROUTINE rand_mat(r, c, mat)
+	IMPLICIT NONE
+	INTEGER, INTENT(in) :: r, c
+	REAL*8, INTENT(out) ::  mat(r, c)
+	! Fill a matrix with `r` rows and `c` columns with a random
+	! number between 0 and 1 (not including 1).
+	CALL RANDOM_NUMBER(mat)
+END SUBROUTINE
+```
+
+
 

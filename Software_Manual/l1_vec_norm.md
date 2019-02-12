@@ -49,5 +49,24 @@ The output from the above code:
 
 which is the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of the vector ***a***.
 
-**Implementation/Code:** The code for l1_vec_norm can be seen [here](../l1_vec_norm.f90).
+**Implementation/Code:** The code for l1_vec_norm can be seen below.
+
+```fortran
+SUBROUTINE l1_vec_norm(a, n, norm)
+IMPLICIT NONE
+
+INTEGER, INTENT(IN) :: n
+REAL*8, INTENT(IN) :: a(1:n)
+REAL*8, INTENT(OUT) :: norm
+INTEGER :: i
+
+norm = 0.0D0
+
+! Sum up the absolute value of each value in the vector a to find
+! the l1-norm of the vector.
+DO i = 1, n
+	norm = norm + ABS(a(i))
+END DO
+END SUBROUTINE
+```
 

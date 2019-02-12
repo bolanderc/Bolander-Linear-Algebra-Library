@@ -48,5 +48,20 @@ The output from the above code:
 
 which is the relative error between *x* and *y*.
 
-**Implementation/Code:** The code for rel_err_n can be seen [here](../rel_err_n.f90).
+**Implementation/Code:** The code for rel_err_n can be seen below.
+
+```fortran
+SUBROUTINE rel_err_n(x, y, e_rel)
+IMPLICIT NONE
+REAL*8, INTENT(IN) :: x, y
+REAL*8, INTENT(OUT) :: e_rel
+
+! Calculates the relative error between two numbers, x and y, where
+! y is the approximation to x.
+e_rel = ABS(x - y)/ABS(x)
+
+END SUBROUTINE
+```
+
+
 
