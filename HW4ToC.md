@@ -1,7 +1,7 @@
 # Homework 4 Table of Contents
 
 - [x] [Task 1](./Software_Manual/s_mult_mat.md)
-- [ ] [Task 2](https://bolanderc.github.io/math5610)
+- [x] [Task 2](./Software_Manual/mat_add.md)
 - [ ] [Task 3](https://bolanderc.github.io/math5610)
 - [ ] [Task 4](https://bolanderc.github.io/math5610)
 - [ ] [Task 5](https://bolanderc.github.io/math5610)
