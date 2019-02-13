@@ -7,13 +7,14 @@ This is a part of the student software manual project for Math 5610: Computation
 **Author:** Christian Bolander
 
 **Language:** Fortran. This code can be compiled using the GNU Fortran compiler by
+
 ```$ gfortran -c s_mult_vec.f90```
 
 and can be added to a program using
 
 ```$ gfortran program.f90 s_mult_vec.o ``` 
 
-**Description/Purpose:** This routine multiply a scalar, *s*, into a vector, ***a***, and calculate the product, ***c***.
+**Description/Purpose:** This routine multiply a scalar, *s*, into a vector, ***a***, and calculate the product.
 
 **Input:**  
 
@@ -25,23 +26,27 @@ and can be added to a program using
 
 **Output:** 
 
-*c* : REAL - the product of *s* and *a*
+*a* : REAL - the product of *s* and *a*
 
 **Usage/Example:**
 
 This routine can be implemented in a program as follows
 
 ```fortran
+INTEGER :: n, i
+REAL*8 :: s, doo
+REAL*8, ALLOCATABLE :: a(:)
+
 n = 8
 s = 1.2D0
-doo = 1.0
-ALLOCATE(a(1:n), c(1:n))
+doo = 1.0D0
+ALLOCATE(a(1:n))
 DO i = 1, n
 	a(i) = doo
 END DO
-CALL s_mult_vec(s, a, c, n)
+CALL s_mult_vec(s, a, n)
 DO i = 1, n
-	WRITE(*,*) c(i)
+	WRITE(*,*) a(i)
 END DO
 ```
 
@@ -58,24 +63,27 @@ The output from the above code:
    1.2000000000000000 
 ```
 
-which is the vector ***c***.
+which is the vector ***a*** multiplied by *s*.
 
 **Implementation/Code:** The code for s_mult_vec can be seen below.
 
 ```fortran
-SUBROUTINE s_mult_vec(s, a, c, n)
-IMPLICIT NONE
+SUBROUTINE s_mult_vec(s, a, n)
+	IMPLICIT NONE
+	
+	! Takes a vector a, its length, n, and a scalar, s as inputs. s is
+	! multiplied into a and then a is returned.
+	INTEGER, INTENT(IN) :: n
+	REAL*8, INTENT(INOUT) :: a(1:n)
+	REAL*8, INTENT(IN) :: s
+	
+	! An increment variable to loop over the vector a
+	INTEGER :: i
 
-INTEGER, INTENT(IN) :: n
-REAL*8, INTENT(IN) :: a(1:n)
-REAL*8, INTENT(IN) :: s
-REAL*8, INTENT(OUT) :: c(1:n)
-INTEGER :: i
-
-! Multiply a vector, a, by a scalar, s, element-wise.
-DO i = 1, n
-	c(i) = s*a(i)
-END DO
+	! Multiply a vector, a, by a scalar, s, element-wise.
+	DO i = 1, n
+		a(i) = s*a(i)
+	END DO
 END SUBROUTINE
 ```
 

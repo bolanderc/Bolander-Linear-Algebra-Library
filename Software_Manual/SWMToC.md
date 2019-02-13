@@ -20,6 +20,7 @@ The subroutines contained in this manual will be split according to their genera
 - [rand_mat](rand_mat.md) : Generates a random matrix of size (r, c).
 - [rel_err_n](./rel_err_n.md) : Calculates the relative error for a value and its approximation.
 - [smaceps](smaceps.md) : Finds the machine epsilon for single precision.
+- [s_mult_mat](./s_mult_mat.md) : Multiplies a matrix by a scalar value.
 - [s_mult_vec](./s_mult_vec.md) : Multiplies a vector by a scalar value.
 - [sym_mat_gen](./sym_mat_gen.md) : Generates a symmetric matrix.
 - [vec_add](./vec_add.md) : Adds two vectors together.

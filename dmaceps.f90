@@ -21,7 +21,7 @@ SUBROUTINE dmaceps(mach_eps, i)
 		! If the computer cannot tell the difference between `approx`
 		! and `one`, the subroutine exits with `i` (the number of
 		! iterations), and `mach_eps` (machine precision).
-		IF(ABS(approx - one) == 1.0) RETURN
+		IF(ABS(approx - one) == 0.0) RETURN
 	
 	END DO
 	
