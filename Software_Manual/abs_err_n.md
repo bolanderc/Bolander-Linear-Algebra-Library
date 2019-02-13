@@ -7,6 +7,7 @@ This is a part of the student software manual project for Math 5610: Computation
 **Author:** Christian Bolander
 
 **Language:** Fortran. This code can be compiled using the GNU Fortran compiler by
+
 ```$ gfortran -c abs_err_n.f90```
 
 and can be added to a program using
