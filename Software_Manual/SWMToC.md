@@ -13,6 +13,7 @@ The subroutines contained in this manual will be split according to their genera
 - [l1_vec_norm](./l1_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of a vector.
 - [l2_vec_norm](./l2_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" /></a>-norm of a vector.
 - [l_inf_vec_norm](./l_inf_vec_norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_\infty" title="\ell_\infty" /></a>-norm of a vector.
+- [lss_diag](./lss_diag.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a diagonal matrix.
 - [mat_1norm](./mat_1norm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /></a>-norm of a square matrix.
 - [mat_add](./mat_add.md) : Computes the sum of two matrices of equal size.
 - [mat_dd](./mat_dd.md) : Generates a random, square, diagonally dominant matrix with n rows and columns.
@@ -28,3 +29,6 @@ The subroutines contained in this manual will be split according to their genera
 - [vec_add](./vec_add.md) : Adds two vectors together.
 - [vec_cross_prod3](./vec_cross_prod3.md) : Calculates the cross product of two vectors of length 3.
 - [vec_dot_prod](./vec_dot_prod.md) : Calculates the dot product of two vectors of the same size.
+
+### Direct Methods
+- [lss_diag](./lss_diag.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a diagonal matrix.

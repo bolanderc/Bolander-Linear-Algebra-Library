@@ -3,7 +3,7 @@
 - [x] [Task 1](./Software_Manual/s_mult_mat.md)
 - [x] [Task 2](./Software_Manual/mat_add.md)
 - [x] [Task 3](./Software_Manual/out_prod_vec.md)
-- [ ] [Task 4](https://bolanderc.github.io/math5610)
+- [x] [Task 4](./Software_Manual/lss_diag.md)
 - [ ] [Task 5](https://bolanderc.github.io/math5610)
 - [ ] [Task 6](https://bolanderc.github.io/math5610) 
 - [ ] [Task 7](https://bolanderc.github.io/math5610)
