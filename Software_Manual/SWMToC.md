@@ -31,4 +31,6 @@ The subroutines contained in this manual will be split according to their genera
 - [vec_dot_prod](./vec_dot_prod.md) : Calculates the dot product of two vectors of the same size.
 
 ### Direct Methods
+- [backsub](./backsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is an upper-triangular matrix using the backward substitution algorithm.
+- [forwardsub](./forwardsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a lower-triangular matrix using the forward substitution algorithm.
 - [lss_diag](./lss_diag.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a diagonal matrix.
