@@ -19,6 +19,7 @@ The subroutines contained in this manual will be split according to their genera
 - [mat_dd](./mat_dd.md) : Generates a random, square, diagonally dominant matrix with n rows and columns.
 - [mat_infnorm](./mat_infnorm.md) : Calculates the <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_\infty" title="\ell_\infty" /></a>-norm of a square matrix.
 - [mat_prod](./mat_prod.md) : Calculates the product of two matrices with equal inner dimension.
+- [mat_row_ech](./mat_row_ech.md) : Transforms an arbitrary matrix of size (m, n) into row echelon form.
 - [out_prod_vec](./out_prod_vec.md) : Calculates the outer product of two vectors.
 - [rand_mat](rand_mat.md) : Generates a random matrix of size (r, c).
 - [rel_err_n](./rel_err_n.md) : Calculates the relative error for a value and its approximation.

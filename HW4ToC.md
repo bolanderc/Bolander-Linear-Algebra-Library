@@ -6,7 +6,7 @@
 - [x] [Task 4](./Software_Manual/lss_diag.md)
 - [x] [Task 5](./Software_Manual/backsub.md)
 - [x] [Task 6](./Software_Manual/forwardsub.md) 
-- [ ] [Task 7](https://bolanderc.github.io/math5610)
+- [x] [Task 7](./Software_Manual/mat_row_ech.md)
 - [ ] [Task 8](https://bolanderc.github.io/math5610)
 - [ ] [Task 9](https://bolanderc.github.io/math5610)
 - [ ] [Task 10](https://bolanderc.github.io/math5610)
