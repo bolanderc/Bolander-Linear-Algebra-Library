@@ -33,5 +33,6 @@ The subroutines contained in this manual will be split according to their genera
 
 ### Direct Methods
 - [backsub](./backsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is an upper-triangular matrix using the backward substitution algorithm.
+- [direct_ge_bs](./direct_ge_bs.md) : Solves a square linear system of equations using Gaussian elimination and backward substitution.
 - [forwardsub](./forwardsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a lower-triangular matrix using the forward substitution algorithm.
 - [lss_diag](./lss_diag.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a diagonal matrix.

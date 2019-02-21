@@ -7,7 +7,7 @@
 - [x] [Task 5](./Software_Manual/backsub.md)
 - [x] [Task 6](./Software_Manual/forwardsub.md) 
 - [x] [Task 7](./Software_Manual/mat_row_ech.md)
-- [ ] [Task 8](https://bolanderc.github.io/math5610)
+- [x] [Task 8](./Software_Manual/direct_ge_bs.md)
 - [ ] [Task 9](https://bolanderc.github.io/math5610)
 - [ ] [Task 10](https://bolanderc.github.io/math5610)
 
