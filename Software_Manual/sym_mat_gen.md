@@ -32,7 +32,7 @@ where the **x**'s represent a random number that is not linked to any other and 
 
 **Usage/Example:**
 
-This routine has two inputs, `r` and `c`, and can be implemented in a program as follows
+This routine can be implemented in a program as follows
 
 ```fortran
 n = 4
