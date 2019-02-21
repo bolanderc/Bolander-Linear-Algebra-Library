@@ -12,7 +12,7 @@ This is a part of the student software manual project for Math 5610: Computation
 
 and can be added to a program using
 
-```$ gfortran program.f90 direct_ge_bs.o ``` 
+```$ gfortran program.f90 direct_ge_bs.o mat_row_ech.o backsub.o ``` 
 
 **Description/Purpose:** This routine uses the subroutines `mat_row_ech` and `backsub` to solve a square linear system of equations such as
 
