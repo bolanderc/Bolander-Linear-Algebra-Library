@@ -13,40 +13,50 @@
 
 ## Description of Tasks
 
-1. Task: Email the link to your repository and table of contents for your completed homework tasks. I understand that this is a very easy task. Make sure that the link is an absolute link. The link should be to the username.github.io repository for the css formatted version.
+### Task 1
+Email the link to your repository and table of contents for your completed homework tasks. I understand that this is a very easy task. Make sure that the link is an absolute link. The link should be to the username.github.io repository for the css formatted version.
 
 ------
 
-2. Task: Implement a method/routine that computes and returns the absolute error in the approximation of a number *x* by another number *y*. Also create an entry for the method in your software manual.
+### Task 2
+Implement a method/routine that computes and returns the absolute error in the approximation of a number *x* by another number *y*. Also create an entry for the method in your software manual.
 
 ------
 
-3. Task: Implement a method/routine that computes and returns the relative error in the approximation of a number *x* by another number *y*. Also create an entry for the method in your software manual.
+### Task 3
+Implement a method/routine that computes and returns the relative error in the approximation of a number *x* by another number *y*. Also create an entry for the method in your software manual.
 
 ------
 
-4. Task: Implement a method that will add two vectors of the same length. Also create an entry for the method in your software manual.
+### Task 4
+Implement a method that will add two vectors of the same length. Also create an entry for the method in your software manual.
 
 ------
 
-5. Task: Implement a method that will return a scalar multiple of a given vector. The method should require a vector and number for the operation. Add an entry to your software manual for this method.
+### Task 5
+Implement a method that will return a scalar multiple of a given vector. The method should require a vector and number for the operation. Add an entry to your software manual for this method.
 
 ------
 
-6. Task: Implement a method that will compute the 2-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create.
+### Task 6
+Implement a method that will compute the 2-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create.
 
 ------
 
-7. Task: Implement a method that will compute the 1-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create.
+### Task 7
+Implement a method that will compute the 1-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create.
 
 ------
 
-8. Task: Implement a method that will compute the <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\infty" title="\infty" /></a>-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
+### Task 8
+Implement a method that will compute the <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\infty" title="\infty" /></a>-norm of an arbitrary vector will real number entries. Add an entry to your for the method you create
 
 ------
 
-9. Task: Write a routine that will generate a symmetric matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
+### Task 9
+Write a routine that will generate a symmetric matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
 
 ------
 
-10. Task: Search the internet for sites that discuss matrix norms. Look for sites that explain induced matrix norms. Write a brief summary of what you find. Limit the discussion to no more than two or three paragraphs and include links to the sites you cite.
+### Task 10
+Search the internet for sites that discuss matrix norms. Look for sites that explain induced matrix norms. Write a brief summary of what you find. Limit the discussion to no more than two or three paragraphs and include links to the sites you cite.
