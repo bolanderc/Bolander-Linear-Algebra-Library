@@ -1,6 +1,6 @@
 # Homework 1 Task 7: Parallel Processing Report
 
-Running the compiled [hello](hello.f) file creates the output
+Running the compiled [hello.f](hello.f) file creates the output
 
 	christian@Joberta:~/Python Projects/math5610$ ./hello
 	hello world from thread           0
