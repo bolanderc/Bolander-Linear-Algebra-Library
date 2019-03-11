@@ -166,9 +166,13 @@ with the output seen below with the value of `m` given.
  -----------------
    529.49505899999986     
    554.27776499999982
+        8000
+ -----------------
+   3441.6954460000002     
+   3594.6079899999995
 ```
 
-
+![alt text](./CompTime.png)
 
 **Implementation/Code:** The code for direct_ge_bsin can be seen below.
 

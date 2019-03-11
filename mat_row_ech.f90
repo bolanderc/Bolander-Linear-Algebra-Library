@@ -1,11 +1,9 @@
-SUBROUTINE mat_row_ech(A, m, n, b)
+SUBROUTINE mat_row_ech(A, m, n)
 	IMPLICIT NONE
 	
-	! Takes as an argument a coefficient matrix `A`, of size `m`x`n` and
-	! a vector `b` that is the right-hand side of a linear system of
-	! equations `Ax = b`.
+	! Takes as an argument a coefficient matrix `A`, of size `m`x`n`.
 	INTEGER, INTENT(IN) :: n, m
-	REAL*8, INTENT(INOUT) :: A(1:m, 1:n), b(1:n)
+	REAL*8, INTENT(INOUT) :: A(1:m, 1:n)
 	
 	! Initialize increment variables i, j, and k as well as a factor
 	! variable to be used in the algorithm.
@@ -30,9 +28,6 @@ SUBROUTINE mat_row_ech(A, m, n, b)
 			DO j = k , n
 				A(i, j) = A(i, j) - factor*A(k, j)
 			END DO
-			
-			! Alter b matrix with factor as well.
-			b(i) = b(i) - factor*b(k)
 		END DO
 	END DO
 END SUBROUTINE
