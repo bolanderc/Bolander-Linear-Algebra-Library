@@ -37,3 +37,4 @@ The subroutines contained in this manual will be split according to their genera
 - [direct_ge_bsin](./direct_ge_bsin.md) : Solves a square linear system of equations using Gaussian elimination and backward substitution in-line. More computationally efficient than `direct_ge_bs`.
 - [forwardsub](./forwardsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a lower-triangular matrix using the forward substitution algorithm.
 - [lss_diag](./lss_diag.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a diagonal matrix.
+- [lu_factor](./lu_factor.md) : Uses LU decomposition on a square coefficient matrix to decompose the matrix into its L and U components.

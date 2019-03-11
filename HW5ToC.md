@@ -1,7 +1,7 @@
 # Homework 5 Table of Contents
 
 - [x] [Task 1](./Software_Manual/direct_ge_bsin.md)
-- [ ] [Task 2](https://bolanderc.github.io/math5610)
+- [x] [Task 2](./Software_Manual/lu_factor.md)
 - [ ] [Task 3](https://bolanderc.github.io/math5610)
 - [ ] [Task 4](https://bolanderc.github.io/math5610)
 - [ ] [Task 5](https://bolanderc.github.io/math5610)
@@ -25,29 +25,29 @@
 
 ------
 
-4. 
+4. Task: Write a code that will generate a symmetric, positive definite matrix for a given integer, n. Make sure that you add an entry to your software manual with a couple of examples. Your examples should be relatively small for your examples, but you should include a large example in the task solution write-up.
 
 ------
 
-5. 
+5. Task: Implement the Cholesky factorization method for square matrices. Do not include any pivoting in the algorithm. Document the algorithm in your software manual. Test the code on at least 2 or 3 matrices of different sizes. At least one example should involve a matrix that is bigger than 100×100 in size. Use output from the method you created in the previous task.
 
 ------
 
-6. 
+6. Task: Write a routine/method that will return an approximate solution of the least squares problem using the normal equation approach. Create an entry in your software manual for the method. Also, make sure you use the Cholesky algorithm that you created in a previous task.
 
 ------
 
-7. 
+7. Task: Implement the QR factorization of a square matrix. Use the Gram-Schmidt process to create the orthogonal vectors for the orthogonal matrix. Document the method in your software manual. Include examples showing the orthogonal matrix and the other factor which should be upper triangular.
 
 ------
 
-8. 
+8. Task: Try out your QR-factorization method from the previous task on the Hilbert matrices of sizes *n* = 4, 6, 8, 10. Test to see if the orthogonal matrix is really orthogonal by multiplying *Q*<sup>T</sup>*Q* and comparing the result to the identity matrix. Explain the results you obtain.
 
 ------
 
-9. 
+9. Task: Implement a method that will return a square diagonally dominant matrix. Document this method in your software manual.
 
 ------
 
-10. 
+10. Task: Search the internet for sites that discuss the use of direct methods for the approximate solution of linear systems of systems of equations. Note that direct methods include factorization methods and the standard Gaussian elimination with back substitution. Find at least a couple of sites where limitations of direct methods are discussed. As usual, cite your sites.
 
