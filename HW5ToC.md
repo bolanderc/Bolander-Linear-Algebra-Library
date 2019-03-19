@@ -3,7 +3,7 @@
 - [x] [Task 1](./Software_Manual/direct_ge_bsin.md)
 - [x] [Task 2](./Software_Manual/lu_factor.md)
 - [x] [Task 3](./Software_Manual/lu_solve.md)
-- [ ] [Task 4](https://bolanderc.github.io/math5610)
+- [x] [Task 4](./Software_Manual/spd_mat_gen.md)
 - [ ] [Task 5](https://bolanderc.github.io/math5610)
 - [ ] [Task 6](https://bolanderc.github.io/math5610) 
 - [ ] [Task 7](https://bolanderc.github.io/math5610)

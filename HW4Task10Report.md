@@ -10,4 +10,6 @@ This web page goes through and outlines the basis of parallelization of matrix-v
 
 ## [Matrix-matrix](https://cse.buffalo.edu/faculty/miller/Courses/CSE633/Ortega-Fall-2012-CSE633.pdf)
 
-This presentation talks about a basic matrix-matrix parallelization scheme that breaks the matrix into small 2x2 sections to 
+This presentation talks about a basic matrix-matrix parallelization scheme that breaks the matrix into small 2 x 2 sections to send to different processors. By breaking the matrices and shifting the last row of 2 x 2's of the first matrix and the last column of 2 x 2's in the second matrix, and performing the simple 2 x 2 matrix multiplication, significant improvements on computational time can be obtained. For example, the following image shows the change in execution time for matrices of varying sizes.
+
+![](/home/christian/Python Projects/math5610/Software_Manual/Mat_Mat_mult_parallel.png)

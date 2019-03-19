@@ -25,6 +25,7 @@ The subroutines contained in this manual will be split according to their genera
 - [smaceps](smaceps.md) : Finds the machine epsilon for single precision.
 - [s_mult_mat](./s_mult_mat.md) : Multiplies a matrix by a scalar value.
 - [s_mult_vec](./s_mult_vec.md) : Multiplies a vector by a scalar value.
+- [spd_mat_gen](./spd_mat_gen.md) : Generates a symmetric, positive definite matrix.
 - [sym_dd_mat_gen](./sym_dd_mat_gen.md) : Generates a symmetric, diagonally dominant matrix.
 - [sym_mat_gen](./sym_mat_gen.md) : Generates a symmetric matrix.
 - [vec_add](./vec_add.md) : Adds two vectors together.
@@ -38,4 +39,4 @@ The subroutines contained in this manual will be split according to their genera
 - [forwardsub](./forwardsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a lower-triangular matrix using the forward substitution algorithm.
 - [lss_diag](./lss_diag.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a diagonal matrix.
 - [lu_factor](./lu_factor.md) : Uses LU decomposition on a square coefficient matrix to decompose the matrix into its L and U components.
-- [lu_solve](./lu_solve.md) : Solves a square linear system of equations using LU decomposition, forward substitution, and backward substitution.
+- [lu_solve](./lu_solve.md) : Solves a square linear system of equations using an LU-factored coefficient matrix, forward substitution, and backward substitution.

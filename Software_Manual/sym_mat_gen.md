@@ -35,7 +35,10 @@ where the **x**'s represent a random number that is not linked to any other and 
 This routine can be implemented in a program as follows
 
 ```fortran
-n = 4
+INTEGER :: n, i
+REAL*8, ALLOCATABLE :: mat(:, :)
+
+n = 3
 
 ALLOCATE(mat(n, n))
 CALL sym_mat_gen(n, mat)
@@ -47,41 +50,39 @@ END DO
 The outputs from the above code:
 
 ```fortran
-  0.75751776322702891       0.49647460323199966       0.66837958508287576     
-  0.49647460323199966       0.94740982034736176       0.77361628542110361     
-  0.66837958508287576       0.77361628542110361       0.53126456636111374 
+  0.16192776212350513       0.87910223888966588       0.14078135957167615     
+  0.87910223888966588       0.84431844571234449       0.35833527779431407     
+  0.14078135957167615       0.35833527779431407       0.21247010336995686
 ```
 
 **Implementation/Code:** The code for sym_mat_gen can be seen below.
 
 ```fortran
 SUBROUTINE sym_mat_gen(n, mat)
-IMPLICIT NONE
+	IMPLICIT NONE
+	
+	! Takes as an input the size of the matrix `n` and outputs a
+	! symmetric, square matrix of that size.
+	INTEGER, INTENT(IN) :: n
+	REAL*8, INTENT(OUT) :: mat(n, n)
+	INTEGER :: i, j
 
-INTEGER, INTENT(IN) :: n
-REAL*8, INTENT(OUT) :: mat(n, n)
-INTEGER :: i, j
+	!~ Fills `mat` with random values
+	CALL RANDOM_NUMBER(mat)
 
-!~ Calculates a symmetric, square matrix by looping over the matrix
-DO i = 1, n
 	!~ goes along all rows, i, and columns where j >= i
-	DO j = i, n
-		!~ A random number is assigned to the entries along the diagonal and to 
-		!~ the right on each row (for example, a 3x3 matrix would assign random
-		!~ values to all elements with an x in the following diagram
-		!~ |x x x|
-		!~ |- x x|
-		!~ |- - x|
-		CALL RANDOM_NUMBER(mat(i, j))
-		!~ The random number assigned above is then copied across the diagonal.
-		!~ The following diagram gives an example of how the values would match
-		!~ |x 1 2|
-		!~ |1 x 3|
-		!~ |2 3 x|
-		!~ The diagonal values are unique.
-		mat(j, i) = mat(i, j)
+	!~ The random number assigned to the upper triangular elements is
+	!~ then copied across the diagonal.
+	!~ The following diagram gives an example of how the values would match
+	!~ |x 1 2|
+	!~ |1 x 3|
+	!~ |2 3 x|
+	!~ The diagonal values are unique.
+	DO i = 1, n
+		DO j = i, n
+			mat(j, i) = mat(i, j)
+		END DO
 	END DO
-END DO
 
 END SUBROUTINE
 ```
