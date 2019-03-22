@@ -1,0 +1,5 @@
+# Homework 5 Task 5: Large Cholesky Factorization Example
+
+*Task: Implement the Cholesky factorization method for square matrices. Do not include any pivoting in the algorithm. Document the algorithm in your software manual. Test the code on at least 2 or 3 matrices of different sizes. At least one example should involve a matrix that is bigger than 100×100 in size. Use output from the method you created in the previous task.*
+
+Using a 200 x 200 matrix in the [cholesky_factor](./Software_Manual/cholesky_factor.md) subroutine and then using a Python module ([numpy.linalg.cholesky](https://docs.scipy.org/doc/numpy/reference/generated/numpy.linalg.cholesky.html)) to verify yields the results shown [here](./cholesky_200_comp.txt). The text file includes the original matrix, the cholesky factor from both routines and the difference between the two. Notice that the difference occurs at machine precision, indicating that the answers agree with one another.

@@ -34,6 +34,7 @@ The subroutines contained in this manual will be split according to their genera
 
 ### Direct Methods
 - [backsub](./backsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is an upper-triangular matrix using the backward substitution algorithm.
+- [cholesky_factor](./cholesky_factor.md) : Uses Cholesky decomposition on a square, symmetric, positive definite matrix to decompose the matrix into its Cholesky factor.
 - [direct_ge_bs](./direct_ge_bs.md) : Solves a square linear system of equations using Gaussian elimination and backward substitution.
 - [direct_ge_bsin](./direct_ge_bsin.md) : Solves a square linear system of equations using Gaussian elimination and backward substitution in-line. More computationally efficient than `direct_ge_bs`.
 - [forwardsub](./forwardsub.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a lower-triangular matrix using the forward substitution algorithm.
