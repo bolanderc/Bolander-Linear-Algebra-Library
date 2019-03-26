@@ -29,5 +29,4 @@ SUBROUTINE cholesky_factor(A, n)
 	END DO
 	! The last diagonal value is simply factored to its square root.
 	A(n, n) = SQRT(A(n, n))
-	
 END SUBROUTINE
