@@ -41,3 +41,6 @@ The subroutines contained in this manual will be split according to their genera
 - [lss_diag](./lss_diag.md) : Computes the solution of a square, linear system of equations where the coefficient matrix is a diagonal matrix.
 - [lu_factor](./lu_factor.md) : Uses LU decomposition on a square coefficient matrix to decompose the matrix into its L and U components.
 - [lu_solve](./lu_solve.md) : Solves a square linear system of equations using an LU-factored coefficient matrix, forward substitution, and backward substitution.
+
+### Least Squares Solvers
+- [solve_normal_equations](./solve_normal_equations.md) : Solves the least squares problem using the normal equations.

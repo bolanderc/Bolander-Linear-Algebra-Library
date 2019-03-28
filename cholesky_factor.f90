@@ -1,4 +1,4 @@
-SUBROUTINE cholesky_factor(A, n)
+SUBROUTINE cholesky_factor(A, n, error)
 	IMPLICIT NONE
 	
 	! Takes as inputs a symmetric, positive definite matrix `A` of size
@@ -7,14 +7,25 @@ SUBROUTINE cholesky_factor(A, n)
 	! the matrix and the original elements in the upper triangular part.
 	INTEGER, INTENT(IN) :: n
 	REAL*8, INTENT(INOUT) :: A(1:n, 1:n)
+	INTEGER, INTENT(OUT) :: error
 	
 	INTEGER :: i, j, k
 	REAL*8 :: factor
 	
 	! The Cholesky factorization method first loops through all of the
-	! diagonal elements and takes their square root...
+	! diagonal elements and takes their square root. If this process fails
 	DO k = 1, n - 1
-		A(k, k) = SQRT(A(k, k))
+		
+		! Check to see if the matrix is symmetric positive definite
+		! before looping. If it is not, then exit the subroutine with
+		! an error message.
+		IF (A(k, k) > 0) THEN
+			A(k, k) = SQRT(A(k, k))
+		ELSE
+			error = 1
+			WRITE(*,*) "Not a symmetric, positive definite matrix."
+			RETURN
+		END IF
 		
 		! Then loops through the lower triangular components to compute
 		! the Cholesky decomposition.
@@ -29,4 +40,6 @@ SUBROUTINE cholesky_factor(A, n)
 	END DO
 	! The last diagonal value is simply factored to its square root.
 	A(n, n) = SQRT(A(n, n))
+	
+	error = 0
 END SUBROUTINE

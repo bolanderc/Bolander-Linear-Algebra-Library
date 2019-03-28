@@ -5,7 +5,7 @@
 - [x] [Task 3](./Software_Manual/lu_solve.md)
 - [x] [Task 4](./Software_Manual/spd_mat_gen.md)
 - [x] [Task 5](./Software_Manual/cholesky_factor.md)
-- [ ] [Task 6](https://bolanderc.github.io/math5610) 
+- [x] [Task 6](./Software_Manual/solve_normal_equations.md) 
 - [ ] [Task 7](https://bolanderc.github.io/math5610)
 - [ ] [Task 8](https://bolanderc.github.io/math5610)
 - [ ] [Task 9](https://bolanderc.github.io/math5610)
