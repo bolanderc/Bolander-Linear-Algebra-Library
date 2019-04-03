@@ -8,7 +8,7 @@
 - [x] [Task 6](./HW1Task6Report.md) 
 - [x] [Task 7](./HW1Task7Report.md)
 - [x] [Task 8](./HW1Task8Report.md)
-- [x] [Task 9](./rand_mat.f90)
+- [x] [Task 9](./Software_Manual/rand_mat.md)
 - [x] [Task 10](./HW1Task10Report.md)
 
 ## Description of Tasks
