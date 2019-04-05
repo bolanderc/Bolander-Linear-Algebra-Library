@@ -6,10 +6,10 @@
 - [x] [Task 4](./HW5Task4Report.md)
 - [x] [Task 5](./HW5Task5Report.md)
 - [x] [Task 6](./Software_Manual/solve_normal_equations.md) 
-- [x] [Task 7](./Software_Manual/qr_factor_modgs.md)
+- [x] [Task 7](./Software_Manual/qr_factor_gs.md)
 - [x] [Task 8](./HW5Task8Report.md)
-- [ ] [Task 9](https://bolanderc.github.io/math5610)
-- [ ] [Task 10](https://bolanderc.github.io/math5610)
+- [x] [Task 9](./Software_Manual/mat_dd.md)
+- [x] [Task 10](./HW5Task10Report.md)
 
 ## Description of Tasks
 
@@ -60,4 +60,3 @@ Implement a method that will return a square diagonally dominant matrix. Documen
 
 ### Task 10
 Search the internet for sites that discuss the use of direct methods for the approximate solution of linear systems of systems of equations. Note that direct methods include factorization methods and the standard Gaussian elimination with back substitution. Find at least a couple of sites where limitations of direct methods are discussed. As usual, cite your sites.
-

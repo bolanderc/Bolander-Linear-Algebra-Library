@@ -7,7 +7,7 @@ SUBROUTINE solve_normal_equations(A, b, m, n, x)
 	! normal equations.
 	INTEGER, INTENT(IN) :: m, n
 	REAL*8, INTENT(IN) :: A(1:m, 1:n), b(1:n)
-	REAL*8, INTENT(INOUT) :: x(1:n)
+	REAL*8, INTENT(OUT) :: x(1:n)
 	
 	REAL*8 :: big_B(1:n, 1:n), y(1:n), z(1:n)
 	INTEGER :: error, i

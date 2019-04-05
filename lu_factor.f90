@@ -30,5 +30,5 @@ SUBROUTINE lu_factor(A, n)
 			! component.
 			A(i, k) = factor
 		END DO
-	END DO	
+	END DO
 END SUBROUTINE
