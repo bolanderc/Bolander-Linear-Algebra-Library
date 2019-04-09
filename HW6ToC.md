@@ -1,6 +1,6 @@
 # Homework 1 Table of Contents
 
-- [ ] [Task 1](https://bolanderc.github.io/math5610)
+- [x] [Task 1](./Software_Manual/qr_sq_solve.md)
 - [ ] [Task 2](https://bolanderc.github.io/math5610)
 - [ ] [Task 3](https://bolanderc.github.io/math5610)
 - [ ] [Task 4](https://bolanderc.github.io/math5610)
@@ -35,26 +35,21 @@ Build a code that will solve the least squares problem using QR factorization. D
 
 ### Task 5
 
-
 ------
 
 ### Task 6
-
 
 ------
 
 ### Task 7
 
-
 ------
 
 ### Task 8
 
-
 ------
 
 ### Task 9
-
 
 ------
 

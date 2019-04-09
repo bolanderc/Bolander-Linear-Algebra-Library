@@ -46,3 +46,4 @@ The subroutines contained in this manual will be split according to their genera
 - [solve_normal_equations](./solve_normal_equations.md) : Solves the least squares problem using the normal equations.
 - [qr_factor_gs](./qr_factor_gs.md) : Uses classical Gram-Schmidt orthogonalization on a coefficient matrix to decompose the matrix into its Q and R components.
 - [qr_factor_modgs](./qr_factor_modgs.md) : Uses modified Gram-Schmidt orthogonalization on a coefficient matrix to decompose the matrix into its Q and R components.
+- [qr_sq_solve](./qr_sq_solve.md) : Finds the solution to a square, linear system of equations using QR factorization.

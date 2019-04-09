@@ -104,6 +104,3 @@ SUBROUTINE solve_normal_equations(A, b, m, n, x)
 	
 END SUBROUTINE
 ```
-
-
-
