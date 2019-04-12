@@ -1,4 +1,4 @@
-# Homework 1 Table of Contents
+# Homework 6 Table of Contents
 
 - [x] [Task 1](./Software_Manual/qr_sq_solve.md)
 - [x] [Task 2](./Software_Manual/qr_factor_modgs.md)
