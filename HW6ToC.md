@@ -1,7 +1,7 @@
 # Homework 6 Table of Contents
 
 - [x] [Task 1](./Software_Manual/qr_sq_solve.md)
-- [x] [Task 2](./Software_Manual/qr_factor_modgs.md)
+- [x] [Task 2](./HW6Task2Report.md)
 - [ ] [Task 3](https://bolanderc.github.io/math5610)
 - [ ] [Task 4](https://bolanderc.github.io/math5610)
 - [ ] [Task 5](https://bolanderc.github.io/math5610)
