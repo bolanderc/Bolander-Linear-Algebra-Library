@@ -2,7 +2,7 @@
 
 - [x] [Task 1](./Software_Manual/qr_sq_solve.md)
 - [x] [Task 2](./HW6Task2Report.md)
-- [ ] [Task 3](https://bolanderc.github.io/math5610)
+- [x] [Task 3](./HW6Task3Report.md)
 - [ ] [Task 4](https://bolanderc.github.io/math5610)
 - [ ] [Task 5](https://bolanderc.github.io/math5610)
 - [ ] [Task 6](https://bolanderc.github.io/math5610) 
