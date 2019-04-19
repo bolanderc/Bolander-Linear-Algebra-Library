@@ -42,7 +42,13 @@ The subroutines contained in this manual will be split according to their genera
 - [lu_factor](./lu_factor.md) : Uses LU decomposition on a square coefficient matrix to decompose the matrix into its L and U components.
 - [lu_solve](./lu_solve.md) : Solves a square linear system of equations using an LU-factored coefficient matrix, forward substitution, and backward substitution.
 
+### Iterative Methods
+- [jacobi_solve](./jacobi_solve.md) : Iteratively solves a square system of equations using the Jacobi Iteration method.
+- 
+
 ### Least Squares Solvers
+- [ls_solveqr](./ls_solveqr.md) : Solves the least squares problem using the Householder transformation QR factorization.
+- [ls_solveqrmod](./ls_solveqrmod.md) : Solves the least squares problem using the modified Gram-Schmidt orthogonalization QR factorization.
 - [solve_normal_equations](./solve_normal_equations.md) : Solves the least squares problem using the normal equations.
 - [qr_factor_gs](./qr_factor_gs.md) : Uses classical Gram-Schmidt orthogonalization on a coefficient matrix to decompose the matrix into its Q and R components.
 - [qr_factor_hh](./qr_factor_hh.md) : Uses Householder transformations on a coefficient matrix to decompose the matrix into its Q and R components.
