@@ -6,8 +6,8 @@
 - [x] [Task 4](./Software_Manual/ls_solveqrmod.md)
 - [x] [Task 5](./Software_Manual/ls_solveqr.md)
 - [x] [Task 6](./Software_Manual/jacobi_solve.md) 
-- [ ] [Task 7](https://bolanderc.github.io/math5610)
-- [ ] [Task 8](https://bolanderc.github.io/math5610)
+- [x] [Task 7](./Software_Manual/gaussseidel_solve.md)
+- [x] [Task 8](./HW6Task8Report.md)
 - [ ] [Task 9](https://bolanderc.github.io/math5610)
 - [ ] [Task 10](https://bolanderc.github.io/math5610)
 
