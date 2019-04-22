@@ -43,8 +43,8 @@ The subroutines contained in this manual will be split according to their genera
 - [lu_solve](./lu_solve.md) : Solves a square linear system of equations using an LU-factored coefficient matrix, forward substitution, and backward substitution.
 
 ### Iterative Methods
-- [jacobi_solve](./jacobi_solve.md) : Iteratively solves a square system of equations using the Jacobi Iteration method.
-- 
+- [jacobi_solve](./jacobi_solve.md) : Iteratively approximates the solution to a system of equations using the Jacobi Iteration method.
+- [gaussseidel_solve](./gaussseidel_solve.md) : Iteratively approximates the solution to a system of equations using the Gauss-Seidel method.
 
 ### Least Squares Solvers
 - [ls_solveqr](./ls_solveqr.md) : Solves the least squares problem using the Householder transformation QR factorization.

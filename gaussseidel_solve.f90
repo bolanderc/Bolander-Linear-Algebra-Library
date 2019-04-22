@@ -25,25 +25,27 @@ SUBROUTINE gaussseidel_solve(A, n, b, tol, maxiter, x0)
 		
 		! Finds the next iteration of the vector x.
 		DO i = 1, n
-			k = k + 1
 			ax_sum = b(i)
 			
 			! Sets the Gauss-Seidel routine apart from the Jacobi in
 			! that it uses any updated values previously calculated in 
 			! the iterations to give a more 'accurate' approximation.
-			DO j = 1, i -1
+			DO j = 1, i - 1
 				ax_sum = ax_sum - A(i, j)*x1(j)
 			END DO
 			DO j = i + 1, n
 				ax_sum = ax_sum - A(i, j)*x0(j)
 			END DO
+		
+			x1(i) = ax_sum/A(i, i)
 			
 			! The x vector approximation is updated, an error is
 			! calculated, and the x0 vector is reset to the approximation
 			! given in this iteration.
-			x1(i) = ax_sum/A(i, i)
-			CALL abs_err_vecl2(x0, x1, n, error)
-			x1 = x0
 		END DO
+		k = k + 1
+		CALL abs_err_vecl2(x0, x1, n, error)
+		x0 = x1
 	END DO
+	WRITE(*,*) k
 END SUBROUTINE
