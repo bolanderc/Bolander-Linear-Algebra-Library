@@ -8,8 +8,8 @@
 - [x] [Task 6](./Software_Manual/jacobi_solve.md) 
 - [x] [Task 7](./Software_Manual/gaussseidel_solve.md)
 - [x] [Task 8](./HW6Task8Report.md)
-- [ ] [Task 9](https://bolanderc.github.io/math5610)
-- [ ] [Task 10](https://bolanderc.github.io/math5610)
+- [x] [Task 9](./HW6Task9Report.md)
+- [x] [Task 10](./HW6Task10Report.md)
 
 ## Description of Tasks
 
