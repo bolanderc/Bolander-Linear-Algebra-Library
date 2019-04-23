@@ -1,7 +1,7 @@
 # Homework 7 Table of Contents
 
-- [ ] [Task 1](./Software_Manual/qr_sq_solve.md)
-- [ ] [Task 2](./HW6Task2Report.md)
+- [x] [Task 1](./HW7Task1Report.md)
+- [x] [Task 2](./HW7Task2Report.md)
 - [ ] [Task 3](./HW6Task3Report.md)
 - [ ] [Task 4](./Software_Manual/ls_solveqrmod.md)
 - [ ] [Task 5](./Software_Manual/ls_solveqr.md)
