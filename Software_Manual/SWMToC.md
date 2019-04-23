@@ -45,6 +45,7 @@ The subroutines contained in this manual will be split according to their genera
 ### Iterative Methods
 - [jacobi_solve](./jacobi_solve.md) : Iteratively approximates the solution to a system of equations using the Jacobi Iteration method.
 - [gaussseidel_solve](./gaussseidel_solve.md) : Iteratively approximates the solution to a system of equations using the Gauss-Seidel method.
+- [steepest_descent](./steepest_descent.md) : Iteratively approximates the solution to a system of equations using the steepest descent method.
 
 ### Least Squares Solvers
 - [ls_solveqr](./ls_solveqr.md) : Solves the least squares problem using the Householder transformation QR factorization.
