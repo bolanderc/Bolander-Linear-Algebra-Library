@@ -34,6 +34,8 @@ by using the following algorithm
 
 *maxiter* : INTEGER - a limit on the maximum number of iterations to be performed by the Jacobi iteration
 
+*printit* : INTEGER - if equal to 1, prints the convergence error and the iteration count
+
 **Output:** 
 
 *x* : REAL - the solution to the system of equations given by *Ax* = *b*
@@ -43,20 +45,21 @@ by using the following algorithm
 This routine can be implemented in a program as follows
 
 ```fortran
-INTEGER :: n, maxiter, i
+INTEGER :: n, maxiter, i, printit
 REAL*8, ALLOCATABLE :: A(:, :), b(:), x(:), Ab(:, :)
 REAL*8 :: tol
 
 n = 3
 maxiter = 1000
 tol = 1e-16
+printit = 0
 ALLOCATE(A(n, n), b(n), x(n), Ab(n, n + 1))
 A = RESHAPE((/10.D0, 1.D0, 3.D0, &
 & 1.D0, 10.D0, 0.D0, &
 & 3.D0, 2.D0, 10.D0/), (/n, n/), ORDER=(/2, 1/))
 b = (/2.D0, 4.D0, 1.D0/)
 x = 0.D0
-CALL jacobi_solve(A, n, b, tol, maxiter, x)
+CALL jacobi_solve(A, n, b, tol, maxiter, x, printit)
 WRITE(*,*) x
 ```
 
@@ -71,13 +74,14 @@ To verify the routine, it can be compared to the [Gaussian Elimination](./direct
 ```fortran
 	IMPLICIT NONE
 
-	INTEGER :: n, maxiter, i
+	INTEGER :: n, maxiter, i, printit
 	REAL*8, ALLOCATABLE :: A(:, :), b(:), x(:), Ab(:, :)
 	REAL*8 :: tol
 
 	n = 3
 	maxiter = 1000
 	tol = 1e-16
+	printit = 0
 	ALLOCATE(A(n, n), b(n), x(n), Ab(n, n + 1))
 	A = RESHAPE((/10.D0, 1.D0, 3.D0, &
 				& 1.D0, 10.D0, 0.D0, &
@@ -86,7 +90,7 @@ To verify the routine, it can be compared to the [Gaussian Elimination](./direct
 	Ab(:n, :n) = A
 	Ab(:, n + 1) = b
 	x = 0.D0
-	CALL jacobi_solve(A, n, b, tol, maxiter, x)
+	CALL jacobi_solve(A, n, b, tol, maxiter, x, printit)
 	WRITE(*,*) "Jacobi"
 	WRITE(*,*) x
 	x = 0.D0
@@ -116,7 +120,7 @@ In addition, with a larger, diagonally dominant matrix (n = 1000), the differenc
 **Implementation/Code:** The code for jacobi_solve can be seen below.
 
 ```fortran
-SUBROUTINE jacobi_solve(A, n, b, tol, maxiter, x0)
+SUBROUTINE jacobi_solve(A, n, b, tol, maxiter, x0, printit)
 	IMPLICIT NONE
 	
 	! Takes as inputs the coefficient matrix, `A` of size `n` and the
@@ -125,7 +129,9 @@ SUBROUTINE jacobi_solve(A, n, b, tol, maxiter, x0)
 	! iterations `maxiter`. An initial guess, `x0` is input and refined
 	! throughout the algorithm with each successive iteration. When the
 	! algorithm exits, `x0` is output as the final approximation of x.
-	INTEGER, INTENT(IN) :: n, maxiter
+	! An input that tells the algorithm to print the final convergence
+	! error and iteration count is also an input.
+	INTEGER, INTENT(IN) :: n, maxiter, printit
 	REAL*8, INTENT(IN) :: A(n, n), b(n), tol
 	REAL*8, INTENT(INOUT) :: x0(n)
 	
@@ -161,5 +167,8 @@ SUBROUTINE jacobi_solve(A, n, b, tol, maxiter, x0)
 		CALL abs_err_vecl2(x0, x1, n, error)
 		x0 = x1
 	END DO
+	IF (printit == 1) THEN
+		WRITE(*,*) error, k
+	END IF
 END SUBROUTINE
 ```
