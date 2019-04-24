@@ -43,6 +43,7 @@ The subroutines contained in this manual will be split according to their genera
 - [lu_solve](./lu_solve.md) : Solves a square linear system of equations using an LU-factored coefficient matrix, forward substitution, and backward substitution.
 
 ### Iterative Methods
+- [cg_method](./cg_method.md) : Iteratively approximates the solution to a system of equations using the Conjugate Gradient method.
 - [jacobi_solve](./jacobi_solve.md) : Iteratively approximates the solution to a system of equations using the Jacobi Iteration method.
 - [gaussseidel_solve](./gaussseidel_solve.md) : Iteratively approximates the solution to a system of equations using the Gauss-Seidel method.
 - [steepest_descent](./steepest_descent.md) : Iteratively approximates the solution to a system of equations using the steepest descent method.
