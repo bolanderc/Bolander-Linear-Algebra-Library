@@ -1,4 +1,4 @@
-# Homework 7 Task 1: Jacobi Iteration vs. Gaussian Elimination CPU Time Comparison
+# Homework 7 Task 2: Jacobi Iteration vs. Gaussian Elimination CPU Time Comparison
 
 *Task: Compare the results for the Gauss-Seidel algorithm and Gaussian elimination on matrices that are diagonally dominant. Tabulate the CPU time necessary to complete the iteration to a given number of digits of accuracy. Tabulate results for successfully larger matrices. Is there an intersection for the curves?*
 
