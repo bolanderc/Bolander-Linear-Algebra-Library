@@ -5,10 +5,10 @@
 - [x] [Task 3](./Software_Manual/steepest_descent.md)
 - [x] [Task 4](./HW7Task4Report.md)
 - [x] [Task 5](./Software_Manual/cg_method.md)
-- [ ] [Task 6](./Software_Manual/jacobi_solve.md) 
-- [ ] [Task 7](./Software_Manual/gaussseidel_solve.md)
-- [ ] [Task 8](./HW6Task8Report.md)
-- [ ] [Task 9](./HW6Task9Report.md)
+- [x] [Task 6](./HW7Task6Report.md) 
+- [x] [Task 7](./HW7Task7Report.md)
+- [x] [Task 8](./HW7Task8Report.md)
+- [x] [Task 9](./HW7Task9Report.md)
 - [ ] [Task 10](./HW6Task10Report.md)
 
 ## Description of Tasks

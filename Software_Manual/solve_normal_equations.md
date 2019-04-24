@@ -89,14 +89,14 @@ SUBROUTINE solve_normal_equations(A, b, m, n, x)
 	REAL*8, INTENT(OUT) :: x(1:n)
 	
 	REAL*8 :: big_B(1:n, 1:n), y(1:n), z(1:n)
-	INTEGER :: error, i
+	INTEGER :: i
 	
 	! Form B = A^T * A
 	CALL mat_prod(TRANSPOSE(A), A, n, m, n, big_B)
 	! Form y = A^T * b
 	CALL mat_prod(TRANSPOSE(A), b, n, m, 1, y)
 	! Compute the Cholesky Factor, G, where B = G * G^T
-	CALL cholesky_factor(big_B, n, error)
+	CALL cholesky_factor(big_B, n)
 	! Solve G * z = y for z using forward substitution
 	CALL forwardsub(n, big_B, y, z)
 	! Solve G^T * x = z for x using backward substitution

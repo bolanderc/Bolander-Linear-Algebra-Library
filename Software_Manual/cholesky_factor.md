@@ -34,8 +34,6 @@ The Cholesky factorization is useful in least squares problems as well as being 
 
 *A* : REAL - the Cholesky factorization of *A* as the lower triangular and diagonal with the upper triangular (without the diagonal) filled with the original elements of *A*.
 
-*error* : INTEGER - Used in the [spd_mat_gen](./spd_mat_gen.md) subroutine to ensure that a matrix is symmetric positive definite.
-
 **Usage/Example:**
 
 This routine can be implemented in a program as follows
@@ -97,7 +95,7 @@ An additional, large example that is verified with another solver can be seen [h
 **Implementation/Code:** The code for cholesky_factor can be seen below.
 
 ```fortran
-SUBROUTINE cholesky_factor(A, n, error)
+SUBROUTINE cholesky_factor(A, n)
 	IMPLICIT NONE
 	
 	! Takes as inputs a symmetric, positive definite matrix `A` of size
@@ -106,7 +104,6 @@ SUBROUTINE cholesky_factor(A, n, error)
 	! the matrix and the original elements in the upper triangular part.
 	INTEGER, INTENT(IN) :: n
 	REAL*8, INTENT(INOUT) :: A(1:n, 1:n)
-	INTEGER, INTENT(OUT) :: error
 	
 	INTEGER :: i, j, k
 	REAL*8 :: factor
@@ -115,16 +112,7 @@ SUBROUTINE cholesky_factor(A, n, error)
 	! diagonal elements and takes their square root. If this process fails
 	DO k = 1, n - 1
 		
-		! Check to see if the matrix is symmetric positive definite
-		! before looping. If it is not, then exit the subroutine with
-		! an error message.
-		IF (A(k, k) > 0) THEN
-			A(k, k) = SQRT(A(k, k))
-		ELSE
-			error = 1
-			WRITE(*,*) "Not a symmetric, positive definite matrix."
-			RETURN
-		END IF
+		A(k, k) = SQRT(A(k, k))
 		
 		! Then loops through the lower triangular components to compute
 		! the Cholesky decomposition.
@@ -140,6 +128,5 @@ SUBROUTINE cholesky_factor(A, n, error)
 	! The last diagonal value is simply factored to its square root.
 	A(n, n) = SQRT(A(n, n))
 	
-	error = 0
 END SUBROUTINE
 ```
