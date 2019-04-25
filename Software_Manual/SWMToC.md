@@ -49,6 +49,7 @@ The subroutines contained in this manual will be split according to their genera
 - [steepest_descent](./steepest_descent.md) : Iteratively approximates the solution to a system of equations using the steepest descent method.
 
 ### Least Squares Solvers
+- [ls_solvejacobi](./ls_solvejacobi.md) : Solves the least squares problem using the setup to the normal equations and then the Jacobi Iteration routine.
 - [ls_solveqr](./ls_solveqr.md) : Solves the least squares problem using the Householder transformation QR factorization.
 - [ls_solveqrmod](./ls_solveqrmod.md) : Solves the least squares problem using the modified Gram-Schmidt orthogonalization QR factorization.
 - [solve_normal_equations](./solve_normal_equations.md) : Solves the least squares problem using the normal equations.

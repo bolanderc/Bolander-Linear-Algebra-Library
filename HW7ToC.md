@@ -9,7 +9,7 @@
 - [x] [Task 7](./HW7Task7Report.md)
 - [x] [Task 8](./HW7Task8Report.md)
 - [x] [Task 9](./HW7Task9Report.md)
-- [ ] [Task 10](./HW6Task10Report.md)
+- [x] [Task 10](./Software_Manual/ls_solvejacobi.md)
 
 ## Description of Tasks
 
