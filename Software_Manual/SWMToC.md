@@ -42,6 +42,9 @@ The subroutines contained in this manual will be split according to their genera
 - [lu_factor](./lu_factor.md) : Uses LU decomposition on a square coefficient matrix to decompose the matrix into its L and U components.
 - [lu_solve](./lu_solve.md) : Solves a square linear system of equations using an LU-factored coefficient matrix, forward substitution, and backward substitution.
 
+### Eigenvalue Solvers
+- [power_method](./power_method.md) : Uses the power method to find the largest eigenvalue and corresponding eigenvector.
+
 ### Iterative Methods
 - [cg_method](./cg_method.md) : Iteratively approximates the solution to a system of equations using the Conjugate Gradient method.
 - [jacobi_solve](./jacobi_solve.md) : Iteratively approximates the solution to a system of equations using the Jacobi Iteration method.

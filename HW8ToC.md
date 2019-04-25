@@ -1,6 +1,6 @@
 # Homework 8 Table of Contents
 
-- [ ] [Task 1](./Software_Manual/qr_sq_solve.md)
+- [x] [Task 1](./Software_Manual/power_method.md)
 - [ ] [Task 2](./HW6Task2Report.md)
 - [ ] [Task 3](./HW6Task3Report.md)
 - [ ] [Task 4](./Software_Manual/ls_solveqrmod.md)
