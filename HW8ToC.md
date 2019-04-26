@@ -2,7 +2,7 @@
 
 - [x] [Task 1](./Software_Manual/power_method.md)
 - [x] [Task 2](./Software_Manual/inverse_iteration.md)
-- [ ] [Task 3](./HW6Task3Report.md)
+- [x] [Task 3](./Software_Manual/K2_cond.md)
 - [ ] [Task 4](./Software_Manual/ls_solveqrmod.md)
 - [ ] [Task 5](./Software_Manual/ls_solveqr.md)
 - [ ] [Task 6](./Software_Manual/jacobi_solve.md) 
