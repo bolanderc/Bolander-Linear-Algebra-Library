@@ -1,10 +1,10 @@
-# Homework 7 Task 4: Steepest Descent on Hilbert Matrices
+# Homework 8 Task 4: Condition Numbers of Hilbert Matrices
 
 *Task: Test the code developed above (K2_cond) to compute the condition number of the Hilbert matrix as the size of the matrix is increased. Tabulate and/or graph the results from your work.*
 
 This process can be executed in Fortran with the following code.
 
-```fortran
+```
 INTEGER :: n, maxiter, i, printit, j, k
 REAL*8, ALLOCATABLE :: A(:, :), v0(:), v(:)
 REAL*8 :: tol, lam, alpha, cond
@@ -34,12 +34,11 @@ END DO
 
 The results of running this code are shown here
 
-|  Size of Hilbert Matrix    |   Condition Number   |
-| :----: | :----: |
-|   4x4   |   15513.738738930397   |
-|   8x8   |  15257575817.032135    |
-|   16x16   |   3.6910873798176121E+019   |
-|32x32	| 1.1010765858137861E+018 	|
+| Size of Hilbert Matrix |    Condition Number     |
+| :--------------------: | :---------------------: |
+|          4x4           |   15513.738738930397    |
+|          8x8           |   15257575817.032135    |
+|         16x16          | 3.6910873798176121E+019 |
+|         32x32          | 1.1010765858137861E+018 |
 
-
-Hilbert matrices are ***terribly*** conditioned. This means that a small perturbation in the right hand side of a system of equations with these matrices will yield drastically different results.
+Hilbert matrices are **terribly** conditioned. This means that a small perturbation in the right hand side of a system of equations with these matrices will yield drastically different results.

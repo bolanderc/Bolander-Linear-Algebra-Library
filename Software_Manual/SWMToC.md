@@ -43,6 +43,7 @@ The subroutines contained in this manual will be split according to their genera
 - [lu_solve](./lu_solve.md) : Solves a square linear system of equations using an LU-factored coefficient matrix, forward substitution, and backward substitution.
 
 ### Eigenvalue Solvers
+- [eigen_search](./eigen_search.md) : Conducts a search for eigenvalues on the interval between the lowest and highest eigenvalues in a system.
 - [inverse_iteration](./inverse_iteration.md) : Uses the inverse iteration method with shifting to find any eigenvalue and its corresponding eigenvector.
 - [K2_cond](./K2_cond.md) : Estimates the l2 condition number of a symmetric positive definite matrix.
 - [power_method](./power_method.md) : Uses the power method to find the largest eigenvalue and corresponding eigenvector.
