@@ -7,7 +7,7 @@
 - [x] [Task 5](./HW8Task5Report.md)
 - [x] [Task 6](./Software_Manual/rayleigh_quotient.md) 
 - [x] [Task 7](./HW8Task7Report.md)
-- [ ] [Task 8](./HW8Task8Report.md)
+- [x] [Task 8](./HW8Task8Report.md)
 - [x] [Task 9](./HW8Task9Report.md)
 - [ ] [Task 10](./HW6Task10Report.md)
 
