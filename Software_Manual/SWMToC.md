@@ -47,6 +47,7 @@ The subroutines contained in this manual will be split according to their genera
 - [inverse_iteration](./inverse_iteration.md) : Uses the inverse iteration method with shifting to find any eigenvalue and its corresponding eigenvector.
 - [K2_cond](./K2_cond.md) : Estimates the l2 condition number of a symmetric positive definite matrix.
 - [power_method](./power_method.md) : Uses the power method to find the largest eigenvalue and corresponding eigenvector.
+- [rayleigh_quotient](./rayleigh_quotient.md) : Uses the Rayleigh Quotient iterative method to find the eigenvalue matching most closely to some initial eigenvector.
 
 ### Iterative Methods
 - [cg_method](./cg_method.md) : Iteratively approximates the solution to a system of equations using the Conjugate Gradient method.

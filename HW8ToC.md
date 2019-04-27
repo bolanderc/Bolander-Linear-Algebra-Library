@@ -5,7 +5,7 @@
 - [x] [Task 3](./Software_Manual/K2_cond.md)
 - [x] [Task 4](./HW8Task4Report.md)
 - [x] [Task 5](./HW8Task5Report.md)
-- [ ] [Task 6](./Software_Manual/jacobi_solve.md) 
+- [x] [Task 6](./Software_Manual/rayleigh_quotient.md) 
 - [ ] [Task 7](./Software_Manual/gaussseidel_solve.md)
 - [ ] [Task 8](./HW6Task8Report.md)
 - [ ] [Task 9](./HW6Task9Report.md)
