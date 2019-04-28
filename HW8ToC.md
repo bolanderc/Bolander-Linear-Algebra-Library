@@ -9,7 +9,7 @@
 - [x] [Task 7](./HW8Task7Report.md)
 - [x] [Task 8](./HW8Task8Report.md)
 - [x] [Task 9](./HW8Task9Report.md)
-- [ ] [Task 10](./HW6Task10Report.md)
+- [x] [Task 10](./Software_Manual/jac_inverse_iteration.md)
 
 ## Description of Tasks
 

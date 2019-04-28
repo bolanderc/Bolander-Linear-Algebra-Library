@@ -7,4 +7,4 @@
 - [x] [Homework 5](./HW5ToC.md)
 - [x] [Homework 6](./HW6ToC.md)
 - [x] [Homework 7](./HW7ToC.md)
-- [ ] [Homework 8](./HW8ToC.md)
+- [x] [Homework 8](./HW8ToC.md)
