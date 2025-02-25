@@ -1,4 +1,4 @@
-# Homework 1 Table of Contents
+# Application 1 Table of Contents
 
 - [x] [Task 1](Software_Manual/SWMToC.md)
 - [x] [Task 2](README.md)
