@@ -1,4 +1,4 @@
-# Homework 5 Table of Contents
+# Application 5 Table of Contents
 
 - [x] [Task 1](./Software_Manual/direct_ge_bsin.md)
 - [x] [Task 2](./Software_Manual/lu_factor.md)
