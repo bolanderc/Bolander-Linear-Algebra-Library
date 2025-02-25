@@ -1,4 +1,4 @@
-# Homework 2 Table of Contents
+# Application 2 Table of Contents
 
 - [x] [Task 1](https://bolanderc.github.io/math5610/)
 - [x] [Task 2](./Software_Manual/abs_err_n.md)
