@@ -1,4 +1,4 @@
-# Homework 4 Table of Contents
+# Application 4 Table of Contents
 
 - [x] [Task 1](./Software_Manual/s_mult_mat.md)
 - [x] [Task 2](./Software_Manual/mat_add.md)
