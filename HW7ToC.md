@@ -1,4 +1,4 @@
-# Homework 7 Table of Contents
+# Application 7 Table of Contents
 
 - [x] [Task 1](./HW7Task1Report.md)
 - [x] [Task 2](./HW7Task2Report.md)
