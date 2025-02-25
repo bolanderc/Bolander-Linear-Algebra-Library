@@ -1,4 +1,4 @@
-# Math 5610 Computational Linear Algebra and Solution of Systems of Equations Software Manual
+# Solve the Least-Squares Problem Using Modified Gram-Schmidt QR Factorization
 
 This is a part of the student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
 

@@ -1,4 +1,4 @@
-# Math 5610 Computational Linear Algebra and Solution of Systems of Equations Software Manual
+# Generate a Symmetric, Diagonally-Dominant Matrix
 
 This is a part of the student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
 

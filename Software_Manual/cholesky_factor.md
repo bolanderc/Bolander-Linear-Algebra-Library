@@ -1,4 +1,4 @@
-# Math 5610 Computational Linear Algebra and Solution of Systems of Equations Software Manual
+# Cholesky Factorization of a Symmetric, Positive Definite Matrix
 
 This is a part of the student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
 

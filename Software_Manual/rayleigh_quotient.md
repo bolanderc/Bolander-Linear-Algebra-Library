@@ -1,4 +1,4 @@
-# Math 5610 Computational Linear Algebra and Solution of Systems of Equations Software Manual
+# Find the Eigenvalue (and Eigenvector) Using Inverse Iteration
 
 This is a part of the student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
 

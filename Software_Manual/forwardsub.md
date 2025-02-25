@@ -1,4 +1,4 @@
-# Math 5610 Computational Linear Algebra and Solution of Systems of Equations Software Manual
+# Solve a Square Linear (Lower-Triangular) System Using Forward Substitution
 
 This is a part of the student software manual project for Math 5610: Computational Linear Algebra and Solution of Systems of Equations. 
 
@@ -22,7 +22,7 @@ where the coefficient matrix, ***A*** is a lower-triangular matrix, i.e.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;a_{11}&space;&0&space;&0&space;\\&space;a_{21}&space;&a_{22}&space;&0&space;\\&space;a_{31}&space;&a_{32}&space;&a_{33}&space;\end{bmatrix}\begin{bmatrix}&space;x_1\\&space;x_2\\&space;x_3&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;b_1\\&space;b_2\\&space;b_3&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;a_{11}&space;&0&space;&0&space;\\&space;a_{21}&space;&a_{22}&space;&0&space;\\&space;a_{31}&space;&a_{32}&space;&a_{33}&space;\end{bmatrix}\begin{bmatrix}&space;x_1\\&space;x_2\\&space;x_3&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;b_1\\&space;b_2\\&space;b_3&space;\end{bmatrix}" title="\begin{bmatrix} a_{11} &0 &0 \\ a_{21} &a_{22} &0 \\ a_{31} &a_{32} &a_{33} \end{bmatrix}\begin{bmatrix} x_1\\ x_2\\ x_3 \end{bmatrix} = \begin{bmatrix} b_1\\ b_2\\ b_3 \end{bmatrix}" /></a>
 
-using the backward substitution method, which has the algorithm
+using the forward substitution method, which has the algorithm
 
 for *k* = 1 : *n*
 
