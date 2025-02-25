@@ -1,4 +1,4 @@
-# Homework 8 Table of Contents
+# Application 8 Table of Contents
 
 - [x] [Task 1](./Software_Manual/power_method.md)
 - [x] [Task 2](./Software_Manual/inverse_iteration.md)
