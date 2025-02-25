@@ -1,4 +1,9 @@
-# Homework Table of Contents
+
+# Applications Table of Contents
+
+---
+
+Click each of the links below to view the types of applications for the software developed in the [library](./Software_Manual/SWMToC.md).
 
 - [Application Set 1](HW1ToC.md)
 - [Application Set 2](./HW2ToC.md)
