@@ -1,4 +1,4 @@
-# Homework 3 Table of Contents
+# Application 3 Table of Contents
 
 - [x] [Task 1](./Software_Manual/abs_err_vecl2.md)
 - [x] [Task 2](./Software_Manual/abs_err_vecl1.md)
